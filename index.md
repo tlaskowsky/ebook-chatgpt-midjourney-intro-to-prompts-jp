@@ -8,12 +8,21 @@
 1. [第６章リソース](/chapter 6/readme.md)
 
 
-{% assign subdirectory = "chapter 1" %}
-<ul>
-{% for chapter in site.chapters %}
-  {% assign chapter_parent_directory = chapter.path | split: '/' | first %}
-  {% if chapter_parent_directory == subdirectory %}
-    <li><a href="{{ site.baseurl }}{{ chapter.url }}">{{ chapter.title | default: chapter.name }}</a></li>
-  {% endif %}
-{% endfor %}
-</ul>
+<ul id="chapter-files"></ul>
+
+<script>
+  $(document).ready(function() {
+    var user = 'tlaskowsky';
+    var repo = 'ebook-chatgpt-midjourney-intro-to-prompts-jp';
+    var branch = 'gh-pages'; // or 'main' or 'master', depending on your default branch
+    var subdirectory = 'chapter%201'; // Replace spaces with %20 for URL encoding
+
+    $.getJSON('https://api.github.com/repos/' + user + '/' + repo + '/contents/_chapters/' + subdirectory + '?ref=' + branch, function(data) {
+      $.each(data, function(index, file) {
+        if (!file.name.startsWith('.')) {
+          $('#chapter-files').append('<li><a href="' + file.download_url + '">' + file.name + '</a></li>');
+        }
+      });
+    });
+  });
+</script>
