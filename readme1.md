@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Chapter 1 Subdirectory Files
+title: Chapter 6 Subdirectory Files
 ---
-{% assign subdirectory = "/chapter_1/" %}
+{% assign subdirectory = "/chapter_6/" %}
 <ul>
 {% for file in site.static_files %}
   {% if file.path contains subdirectory %}
