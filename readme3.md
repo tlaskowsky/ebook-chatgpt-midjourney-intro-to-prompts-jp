@@ -2,7 +2,7 @@
 layout: default
 title: Chapter 3 Subdirectory Files
 ---
-{% assign subdirectory = "/chapter 3/" %}
+{% assign subdirectory = "/chapter_3/" %}
 <ul>
 {% for file in site.static_files %}
   {% if file.path contains subdirectory %}
