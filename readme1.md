@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chapter 1 Subdirectory Files
+title: Chapter 1 Files
 ---
 {% assign subdirectory = "/chapter_1/" %}
 <ul>
@@ -10,3 +10,5 @@ title: Chapter 1 Subdirectory Files
   {% endif %}
 {% endfor %}
 </ul>
+
+1. [第１章Prompts](prompts1.md)
