@@ -11,4 +11,4 @@ title: Chapter 1 Files
 {% endfor %}
 </ul>
 
-1. [第１章Prompts](prompts1.md)
+- [第１章Prompts](prompts1.md)
