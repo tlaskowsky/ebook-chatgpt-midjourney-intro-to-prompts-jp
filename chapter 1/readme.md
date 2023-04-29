@@ -2,14 +2,11 @@
 layout: default
 title: Chapter 1 Subdirectory Files
 ---
-
-{% assign subdirectory = "chapter 1" %}
+{% assign subdirectory = "/chapter 6/" %}
 <ul>
 {% for file in site.static_files %}
-  {% assign file_parent_directory = file.path | split: '/' | first %}
-  {% if file_parent_directory == subdirectory %}
+  {% if file.path contains subdirectory %}
     <li><a href="{{ site.baseurl }}{{ file.path }}">{{ file.name }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
-
