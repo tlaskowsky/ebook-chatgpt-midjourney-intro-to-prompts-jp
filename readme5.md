@@ -10,3 +10,5 @@ title: Chapter 5 Subdirectory Files
   {% endif %}
 {% endfor %}
 </ul>
+
+- [第５章Prompts](prompts5.md)
