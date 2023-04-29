@@ -3,8 +3,8 @@ layout: default
 title: Chapter 1 Subdirectory Files
 ---
 
-{% assign subdirectory = "/chapter 1/" %}
-{% assign exclude_subdirectory = "/chapter 1/images/" %}
+{% assign subdirectory = "{{ site.baseurl }}chapter 1/" %}
+{% assign exclude_subdirectory = "{{ site.baseurl }}images/" %}
 <ul>
 {% for file in site.static_files %}
   {% if file.path contains subdirectory and file.path contains exclude_subdirectory %}
