@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subdirectory Files
+title: Chapter 4 Subdirectory Files
 ---
 {% assign subdirectory = "/chapter 4/" %}
 <ul>
