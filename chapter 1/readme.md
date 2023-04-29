@@ -2,6 +2,7 @@
 layout: default
 title: Chapter 1 Subdirectory Files
 ---
+
 {% assign subdirectory = "/chapter 1/" %}
 {% assign exclude_subdirectory = "/chapter 1/images/" %}
 <ul>
