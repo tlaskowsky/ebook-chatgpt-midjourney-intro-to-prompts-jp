@@ -6,3 +6,13 @@
 1. [第４章リソース](/chapter 4/readme.md)
 1. [第５章リソース](/chapter 5/readme.md)
 1. [第６章リソース](/chapter 6/readme.md)
+
+{% assign subdirectory = "chapter 1" %}
+<ul>
+{% for file in site.static_files %}
+  {% assign file_parent_directory = file.path | split: '/' | first %}
+  {% if file_parent_directory == subdirectory %}
+    <li><a href="{{ site.baseurl }}{{ file.path }}">{{ file.name }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
