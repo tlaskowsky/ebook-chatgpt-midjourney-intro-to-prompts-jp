@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chapter 1 Prompts
+---
+
 | Prompt | Image |
 | ----------- | ----------- |
 | A focused Japanese female teen digital artist with a smile is diligently working on her drawing in a simple line art style. She sits at her workspace, holding a stylus pen in her hand, her eyes fixated on the digital tablet in front of her. The half-page coloring page showcases her passion for art, featuring clean lines, minimal shading, and ample space for coloring enthusiasts to add their creative touch. Various artistic elements, such as pencils, brushes, and color palettes, are scattered around the scene, reflecting the artist's dedication to her craft. --ar 7:4 --v 5 | ![image](/images/001.jpg) |
