@@ -1,7 +1,4 @@
----
-layout: default
-title: Chapter 1 Prompts
----
+## Prompts for Chapter 1
 
 | Prompt | Image |
 | ----------- | ----------- |
