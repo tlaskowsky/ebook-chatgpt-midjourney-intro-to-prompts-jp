@@ -1,0 +1,10 @@
+---
+layout: default
+title: Chapter 1 Prompts
+---
+
+| Prompt | Image |
+| ----------- | ----------- |
+| A focused Japanese female teen digital artist with a smile is diligently working on her drawing in a simple line art style. She sits at her workspace, holding a stylus pen in her hand, her eyes fixated on the digital tablet in front of her. The half-page coloring page showcases her passion for art, featuring clean lines, minimal shading, and ample space for coloring enthusiasts to add their creative touch. Various artistic elements, such as pencils, brushes, and color palettes, are scattered around the scene, reflecting the artist's dedication to her craft. --ar 7:4 --v 5 | ![image](images/001.jpg) |
+| A gentle robot sensei assists a focused Japanese female teen digital artist as she intently draws on her computer in a simple line art style. The half-page coloring page captures the heartwarming interaction, showcasing clean lines and minimal shading for coloring enthusiasts to personalize. The robot sensei, designed with smooth curves and friendly features, stands behind the young artist, offering guidance and encouragement. The scene includes various art-related elements such as digital drawing tools, color palettes, and layers, highlighting the creative atmosphere and enhancing the coloring experience. --ar 7:4 --v 5 | ![image](images/002.jpg) |
+| in a harmonious world where all digital artists can communicate and share their art with one another, this simple line art half-page coloring page illustrates a diverse group of artists collaborating on a large digital canvas. Each artist brings their unique style, contributing to a vibrant, interconnected art piece. The coloring page features clean lines and minimal shading, allowing coloring enthusiasts to add their personal touch to the scene. Various artistic tools, such as styluses, digital tablets, and color palettes, are scattered throughout the image, reflecting the unity and creativity of the global digital art community. --niji 5 --ar 7:4 --v 5 | ![image](images/003.jpg) |
